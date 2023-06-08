@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600;700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+    /* background: linear-gradient(180deg , hsl(0, 0%, 100%),#305789) ; */
+    height: 120vh;
+    overflow: hidden;
+    background: #FDF5E6;
+}
+.login-logo {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 350px;
+    height: 625px;
+    background: #FFFDF8;
+    border-radius: 10px;
+    box-shadow: 2px 4px 25px #00000050;
+}
+
+
+.center h1 {
+    text-align: center;
+    padding: 5px 0 20px 5px;
+    border-bottom: 1px solid silver;
+}
+
+.center form {
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+.button {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+input[type='button'] {
+    width: 50%;
+    height: 50px;
+    border: 1px solid;
+    background: #305789;
+    border-radius: 25px;
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 500;
+    cursor: pointer;
+    outline: none;
+}
+form .txt_field {
+    position: relative;
+    border-bottom: 2px solid #adadad;
+    margin: 30px 0;
+}
+
+.txt_field input {
+    width: 100%;
+    padding: 0 5px;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+    background: none;
+    outline: none;
+    font-family: Kanit;
+}
+/* .mainLoginInput::placeholder {  *//* Chrome, Firefox, Opera, Safari 10.1+ */
+/*     font-family: Kanit; */
+/*     opacity: 1;  *//* Firefox */
+/*   } */
+  
+/* .mainLoginInput:-ms-input-placeholder { */ /* Internet Explorer 10-11 */
+  /*   font-family: Kanit;
+  } */
+/* .mainLoginInput::-ms-input-placeholder { */ /* Microsoft Edge */
+/*     font-family: Kanit;
+  }
+   */
